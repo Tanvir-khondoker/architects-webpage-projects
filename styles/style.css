@@ -113,19 +113,19 @@ nav>ul {
 }
 
 .section-second-images>img {
-    height: 300px;
-    width: 300px;
+    max-height: 300px;
+    max-width: 300px;
 
 }
 
 .section-second-content {
-    width: 537px;
-    height: 304px;
+    max-width: 537px;
+    max-height: 304px;
 }
 
 .second-title {
-    width: 468px;
-    height: 106px;
+    max-height: 468px;
+    max-height: 106px;
     font-size: 45px;
     font-weight: 500;
     color: var(--gray);
@@ -142,8 +142,8 @@ nav>ul {
 .section-two-description {
     margin-top: 24px;
     margin-bottom: 32px;
-    height: 78px;
-    width: 537px;
+    max-height: 78px;
+    max-width: 537px;
     color: var(--gray);
 }
 
@@ -163,26 +163,26 @@ nav>ul {
 }
 
 .section-third > img{
-    height: 982px;
-    width: 50%;
+    max-height: 982px;
+    max-width: 800px;
     border: none;
     border-radius: 8px;
 }
 
 .section-third-text{
     width: 29%;
-    height: 982px;
+    max-height: 982px;
 }
 
 .header-para{
-  width: 400px;
+  max-height: 400px;
   margin-bottom: 30px;
   background-color: whitesmoke;  
 }
 
 .header-para-heading{
-    margin-bottom: 24px;
-    padding-left: 21px;
+    /* /* margin-bottom: 24px; */
+    padding-left: 21px; 
     /* height: 100%; */
     /* width: 468px; */
     font-size: 45px;
@@ -266,12 +266,13 @@ text-align: center;
 /* section five design */
 
 .section-fifth{
-    margin-bottom: 17vh;
-    margin-left:20% ;
-    margin-right:24% ;
     display: grid;
     grid-template-columns:repeat(4, 1fr) ;
-    grid-gap: 124px;
+    grid-gap:7em;
+    margin-bottom: 17vh;
+    margin-left:6% ;
+    margin-right:6% ;
+    
 }
 
 .section-fifth-section{
@@ -304,7 +305,7 @@ text-align: center;
   margin-right: auto;  
 }
 
-/* section six */
+/* section six style */
 
 
 .section-six{
@@ -335,9 +336,9 @@ text-align: center;
 .section-7{
 
     display: flex;
-    gap: 10em;
-    margin-left: 15%;
-    margin-right: auto;
+    gap: 7em;
+    margin-left: 9%;
+    margin-right: 9%;
     margin-bottom: 130px;
 
 }
@@ -346,6 +347,8 @@ text-align: center;
     filter: grayscale(90%);
   }
 
+
+  /*footer section designing  */
 .content{
     height: 100px;
     max-width: 1440px;
